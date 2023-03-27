@@ -1,0 +1,180 @@
+.flexmain {
+display: flex;
+/*background-color: purple;*/
+flex-direction: column;
+}
+
+.flextitle {
+display: flex;
+flex-direction: row;
+/*background-color: red;*/
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+}
+
+.flexychild {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 0px 0px 0px 0px;
+align-items: center;
+justify-content: center;
+line-height: 20%;
+/*background-color: lightgreen;*/
+}
+
+.flexycontent {
+display: flex;
+/*background-color: lightblue;*/
+flex-direction: row;
+flex-wrap: wrap;
+padding: 5px 5px 5px 5px;
+align-items: center;
+justify-content: center;
+margin-bottom: 2rem;
+}
+
+.flexyboxyprime {
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 1rem;
+}
+
+.flexyboxy {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+
+
+}
+
+.giddygrid {
+display: grid | inline-grid;
+grid-template-columns: [first] 1fr [second] 1fr;
+grid-template-rows: 1fr 1fr 1ft 10fr;
+gap: 20px 10px;
+/*background-color: lightblue;*/
+	
+justify-items: start;
+justify-content: space-evenly;
+align-content: start;
+}
+
+.title1 {
+grid-row: 1 / span 1;
+grid-column: 1;
+color: black;
+text-align: left;
+font-family: Arial;
+}
+
+.listy {
+grid-row: 4 / first-end;
+grid-column: 1;
+color: black;
+text-align: left;
+font-family: Arial;
+}
+
+.title2 {
+grid-row: 1 / span 1;
+grid-column: second-start;
+color: black;
+text-align: left;
+font-family: Arial;
+
+}
+
+.listy2 {
+grid-row: 4 / second-start;
+grid-column: 2;
+color: black;
+text-align: left;
+font-family: Arial;
+}
+
+.subtitle {
+align-items: center;
+justify-content: center;
+padding: 0px 0px 0px 0px;
+color: black;
+}
+
+.box {
+padding: 0px 0px 0px 0px;
+color: black;
+font-size: 12px;
+text-align: left;
+
+}
+
+.item {
+/*background-color: pink;*/
+
+align-content: center;
+font-size: 17px;
+}
+
+.dots {
+width: 5px;
+
+padding: 4px 4px 4px 4px;
+flex-basis: 5px;
+flex-shrink: 20;
+font-size: 17px;
+/*background-color: green;*/
+}
+
+.dates {
+font-size: 1.4vw;
+font-family: Arial;
+color: black;
+align-content: flex-end;
+align-items: flex-end;
+}
+
+
+
+p {
+  color: black;
+  text-align: center;
+  font-family: Arial;
+  
+}
+
+.hline {
+width: 90%;
+height: 1px;
+background-color: black;
+margin-top: 1rem;
+margin-bottom: .5rem;
+align-content:left;
+
+}
+
+h1 {
+color: black;
+text-align: center;
+font-family: Arial, bold;
+font-size: 4vw
+line-height: 40%;
+}
+
+h2 {
+color: black;
+text-align:center;
+font-family: Arial;
+font-size: 1.4vw;
+}
+
+h3 {
+color: black;
+text-align: center;
+font-family: Arial;
+font-size: 1.6vw; 
+line-height: 40%;
+}
+
